@@ -1,0 +1,31 @@
+.div-cabeçalho{
+	width: 100%;
+	height: 5%;
+	background-color: #F5FFFA;
+}
+.div-slogan{
+	position: relative;
+	top: 40%;
+	left: 45%;
+}
+.div-menu{
+	background-color: #C0C0C0;
+	width: 100%;
+	height: 20%;
+	display: flex;   
+	justify-content: space-between;
+}
+.div-logo{
+	width: 20%;
+	height: 70%;
+}
+.div-menu-options{
+	position: relative;
+	top: 45%;
+	right: 1%;
+}
+.div-menu-icons{
+	position: relative;
+	top: 45%;
+	right: 1%;
+}
