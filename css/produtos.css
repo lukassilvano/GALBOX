@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+}
+
+.div-produtos{
+	width: 100%;
+	height: 100%;
+}
+
+
+.div-card{
+	width: 200px;
+	height: 400px;
+	background-color: #CCC;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+.div-poster{
+	width: 100%;
+	height: 72%;
+}
+
+.div-poster img{
+	width: 100%;
+	height: 100%;
+}
+
+.div-titulo{
+	width: 100%;
+	background-color: #EEE;
+}
+
+h3{
+	margin: 0px;
+}
+
+.div-descricao{
+	width: 100%;
+}
+
+.div-rodape{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.button-rodape{
+	width: 100%;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.button-comprado{
+	background-color: green;
+}
