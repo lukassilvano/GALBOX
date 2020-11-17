@@ -1,6 +1,5 @@
 var array_produtos = [['GTA VI', 'GTA.png', 'Rockstar', false], ['Silent Hills', 'SH.png', 'Konami', false], ['Half-Life 3', 'hl3.jpg', 'Valve', false]];
-
-
+storage = window.localStorage;
 var array_carrinho = [];
 
 
@@ -53,6 +52,8 @@ function fLocalListaProdutos(){
 		array_produtos[id].splice(3, 1, true);
 
 		array_carrinho.push(array_produtos[id]);
+
+		storage.setItem("carrinho", array_carrinho);
 		
 		console.log(array_carrinho);
 
