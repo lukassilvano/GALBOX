@@ -7,10 +7,14 @@ $(document).ready(function() {
 		window.location.href = "pages/carrinho.html";
 		
 	});
-	$("#login").click(function(){
-		window.location.href = "pages/login.html";
-		
-	});
+  $("#login").click(function(){
+    window.location.href = "pages/login.html";
+    
+  });
+  $(".cadastro").click(function(){
+    window.location.href = "pages/cadastro.html";
+    
+  });
 	initMap();
 });
 

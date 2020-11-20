@@ -36,7 +36,8 @@ function fLocalListaProdutos(){
 		}
 		else
 		{
-			conteudo += '<button class="button-rodape button-comprado" id_produto="' + i + '">Comprado</button>';
+			conteudo += '<button class="button-comprado" id_produto="' + i + '">Comprado</button>';
+			
 		}
 
 		conteudo += '</div>';
@@ -54,9 +55,10 @@ function fLocalListaProdutos(){
 		array_carrinho.push(array_produtos[id]);
 
 		storage.setItem("carrinho", array_carrinho);
-		/*
+		
 		console.log(array_carrinho);
-		*/
+
+
 		fLocalListaProdutos();
 
 	});

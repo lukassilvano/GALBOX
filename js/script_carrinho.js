@@ -5,6 +5,6 @@ var storage = window.localStorage;
  });
 
  function carregaCarrinho(){
- 	storage.getItem("carrinho");
+ 	storage.setItem("carrinho");
  	console.log(localStorage);
  }
