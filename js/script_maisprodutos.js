@@ -54,10 +54,9 @@ function fLocalListaProdutos(){
 		array_carrinho.push(array_produtos[id]);
 
 		storage.setItem("carrinho", array_carrinho);
-		
+		/*
 		console.log(array_carrinho);
-
-
+		*/
 		fLocalListaProdutos();
 
 	});

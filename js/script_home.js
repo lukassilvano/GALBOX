@@ -7,6 +7,10 @@ $(document).ready(function() {
 		window.location.href = "pages/carrinho.html";
 		
 	});
+	$("#login").click(function(){
+		window.location.href = "pages/login.html";
+		
+	});
 	initMap();
 });
 
